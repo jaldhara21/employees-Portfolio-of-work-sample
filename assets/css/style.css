@@ -56,7 +56,7 @@ header nav ul li a:hover {
     border-bottom: 3px solid;
     padding-bottom: 2px;
 }
-/* hero style and employee img */
+/* hero style and employee img style */
 .hero {
     background-image: url(../Images/modern-abstract-geometric-purple-background-vector-3207531.jpeg);
     background-size: center;
@@ -81,11 +81,14 @@ header nav ul li a:hover {
     height: 175px;
     width: 175px;
 }
-/* about me and contact me */
-/* footer style */
+/* about me and contact me style */
 .section-title {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 15px;
     font-size: 35px;
+    width: 10%;
     color: var(--color);
     text-align: right;
     border-right: black solid 3px;
@@ -105,6 +108,86 @@ section p {
     padding: 20px;
     width: 90%;
 } 
+/* work style */
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+.flex-row2 p {
+    display: inline-block;
+    text-align: start;
+    background-color: purple;
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+.item-detail {
+    background-image: url(../Images/Screen\ Shot\ 2023-04-25\ at\ 12.44.06\ PM.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border:purple 5px solid;
+    position: relative;
+}
+.item-detail:hover{
+    opacity: 75%;
+}
+
+.other-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+.run-buddy {
+    background-image: url(../images/run\ buddy\ img.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: purple 5px solid;
+    position: relative;
+}
+.run-buddy:hover {
+    opacity: 75%;
+}
+
+.pastel-puzzles {
+    background-image: url(../images/mern\ stack.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: purple 5px solid;
+    position: relative; 
+}
+.pastel-puzzles:hover {
+    opacity: 75%;
+}
+/* footer style */
 footer ul {
     list-style: none;
     display: flex;
@@ -128,73 +211,46 @@ footer ul li a:hover {
     color: var(--color);
     border-radius: 15px;
 }
-.flex-row2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    width: 90%;
-}
-.main-project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    height: 650px;
-    width: 100%;
-}
-.item-detail {
-    background-image: url(../Images/Screen\ Shot\ 2023-04-25\ at\ 12.44.06\ PM.png);
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    margin: 0 1% 2% 1%;
-    border:purple 3px solid;
-    position: relative;
-}
-.item-detail:hover{
-    opacity: 75%;
-}
 
-.other-project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    flex-direction: row;
-    width: 100%;
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+    .section-title {
+        width: 20%;
+    }
 }
-.run-buddy {
-    background-image: url(../images/run\ buddy\ img.png);
-    background-size: cover;
-    width: 47.5%;
-    height: 300px;
-    margin-bottom: 2%;
-    margin-right: 0.5%;
-    border: purple 5px solid;
-    position: relative;
+      /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
 }
-
-
-.run-buddy:hover {
-    opacity: 75%;
-}
-
-.pastel-puzzles {
-    background-image: url(../images/mern\ stack.png);
-    background-size: cover;
-    width: 47.5%;
-    height: 300px;
-    margin-bottom: 2%;
-    margin-left: 0.5%;
-    border: purple 5px solid;
-    position: relative; 
-}
-
-.pastel-puzzles:hover {
-    opacity: 75%;
+     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
 }
