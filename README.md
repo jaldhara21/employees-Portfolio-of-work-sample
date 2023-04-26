@@ -13,16 +13,16 @@ For this challenge, I am using flexbox, media queris, and css variables which we
 
 ## Work Completed
 <ul>
-  <ol>WHEN I load their portfolio/ol>
-<ol>THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them/ol>
-<ol>WHEN I click one of the links in the navigation/ol>
-  <ol>THEN the UI scrolls to the corresponding section/ol>
-  <ol>WHEN I click on the link to the section about their work/ol>
-  <ol>WHEN I click on the images of the applications/ol>
-  <ol>THEN I am taken to that deployed application/ol>
+  <ol>WHEN I load their portfolio</ol>
+<ol>THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them</ol>
+<ol>WHEN I click one of the links in the navigation</ol>
+  <ol>THEN the UI scrolls to the corresponding section</ol>
+  <ol>WHEN I click on the link to the section about their work</ol>
+  <ol>WHEN I click on the images of the applications</ol>
+  <ol>THEN I am taken to that deployed application</ol>
   <ol>WHEN I resize the page or view the site on various screens and devices.
-THEN I am presented with a responsive layout that adapts to my viewport/ol>
-<ol>THEN that application's image should be larger in size than the others/ol>
+THEN I am presented with a responsive layout that adapts to my viewport</ol>
+<ol>THEN that application's image should be larger in size than the others</ol>
 </ul>
 
 ## Deployed page
