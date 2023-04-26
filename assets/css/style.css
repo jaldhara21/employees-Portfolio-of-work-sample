@@ -2,29 +2,23 @@
     --backgound-color: rgba(246, 214, 247, 0.762);
     --color: rgb(76, 95, 239);
 }
-
 * {
     margin: 0%;
     padding: 0%;
     background-color: var(--background);
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Times New Roman', Times, serif;
     color: var(--color);
     background-color: var(--backgound-color);
 }
-/* header and nav style*/
+/* HEADER AND NAV STYLE */
 .header {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     background-color: var(--backgound-color);
-    color: var(--color);
-    position: sticky;
-    overflow: hidden;
 }
 header h1 {
     font-weight: bold;
@@ -48,7 +42,6 @@ a {
   text-decoration: none;
 }
 header nav ul li a:hover {
-    margin: 0 30px;
     font-weight: lighter;
     font-size: 25px;
     color: var(--color);
@@ -56,40 +49,27 @@ header nav ul li a:hover {
     border-bottom: 3px solid;
     padding-bottom: 2px;
 }
-/* hero style and employee img style */
+
+/* HERO AND EMPLOYEE IMG STYLE */
 .hero {
     background-image: url(../Images/modern-abstract-geometric-purple-background-vector-3207531.jpeg);
-    background-size: center;
-    height: 300px;
-    width: 100%;
+   display: flex;
+   justify-content: flex-end;
     background-position: center;
 }
 .hero h2 {
     font-style: italic;
-    font-size: 20px;
-    color: var(--color);
-    float: right;
-    margin-top: 225px;
+    margin-top: 75px;
     padding-right: 20px;
     background-color: var(--backgound-color);
 }
-.image1 {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-    border: 3px var(--color) solid;
-    height: 175px;
-    width: 175px;
-}
-/* about me and contact me style */
+/* ABOUT ME AND CONTACT STYLE */
 .section-title {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 15px;
     font-size: 35px;
     width: 10%;
-    color: var(--color);
     text-align: right;
     border-right: black solid 3px;
 }
@@ -100,28 +80,33 @@ header nav ul li a:hover {
 }
 section p {
     font-size: large;
-    font-family: sans-serif,serif;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    width: 80%;
 }
 .flex-row {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
     padding: 20px;
     width: 90%;
 } 
-/* work style */
+.photo {
+    border: 3px var(--color) solid;
+    width: 10%;
+}
+/* WORK STYLE */
 .flex-row2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto 0 auto;
     width: 90%;
 }
 .flex-row2 p {
     display: inline-block;
     text-align: start;
-    background-color: purple;
+    background-color: white;
     opacity: 85%;
     width: 45%;
     position: absolute;
@@ -133,7 +118,6 @@ section p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 0 auto;
     height: 650px;
     width: 100%;
 }
@@ -149,7 +133,6 @@ section p {
 .item-detail:hover{
     opacity: 75%;
 }
-
 .other-project {
     display: flex;
     flex-wrap: wrap;
@@ -159,7 +142,6 @@ section p {
     flex-direction: row;
     width: 100%;
 }
-
 .run-buddy {
     background-image: url(../images/run\ buddy\ img.png);
     background-size: cover;
@@ -173,7 +155,6 @@ section p {
 .run-buddy:hover {
     opacity: 75%;
 }
-
 .pastel-puzzles {
     background-image: url(../images/mern\ stack.png);
     background-size: cover;
@@ -187,7 +168,7 @@ section p {
 .pastel-puzzles:hover {
     opacity: 75%;
 }
-/* footer style */
+/* FOOTER STYLE */
 footer ul {
     list-style: none;
     display: flex;
@@ -211,7 +192,10 @@ footer ul li a:hover {
     color: var(--color);
     border-radius: 15px;
 }
-
+.flex-row.link {
+    justify-content: end;
+}
+/* MEDIA QUERY FOR TABLET  */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -249,7 +233,6 @@ footer ul li a:hover {
     .section-title {
       width: 95%;
     }
-  
     .section p {
       width: 100%;
     }
