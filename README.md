@@ -26,7 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport</ol>
 </ul>
 
 ## Deployed page
-
+https://jaldhara21.github.io/employees-Portfolio-of-work-sample/
 
 ## Screen shot
 ![Screen Shot 2023-04-26 at 12 32 26 PM](https://user-images.githubusercontent.com/129098874/234642391-30287127-429b-487a-a74b-7fd1ea8402cf.png)
