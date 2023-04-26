@@ -142,32 +142,20 @@ section p {
     flex-direction: row;
     width: 100%;
 }
-.run-buddy {
-    background-image: url(../images/run\ buddy\ img.png);
+.Portfolio {
+    background-image: url(../Images/Screen\ Shot\ 2023-04-26\ at\ 12.32.26\ PM.png);
     background-size: cover;
-    width: 47.5%;
+    width: 70%;
     height: 300px;
     margin-bottom: 2%;
     margin-right: 0.5%;
     border: purple 5px solid;
     position: relative;
 }
-.run-buddy:hover {
+.Portfolio:hover {
     opacity: 75%;
 }
-.pastel-puzzles {
-    background-image: url(../images/mern\ stack.png);
-    background-size: cover;
-    width: 47.5%;
-    height: 300px;
-    margin-bottom: 2%;
-    margin-left: 0.5%;
-    border: purple 5px solid;
-    position: relative; 
-}
-.pastel-puzzles:hover {
-    opacity: 75%;
-}
+
 /* FOOTER STYLE */
 footer ul {
     list-style: none;
