@@ -29,7 +29,8 @@ THEN I am presented with a responsive layout that adapts to my viewport</ol>
 https://jaldhara21.github.io/employees-Portfolio-of-work-sample/
 
 ## Screen shot
-![Screen Shot 2023-06-06 at 10 32 22 AM]
+![Screen Shot 2023-06-06 at 10 32 22 AM](https://github.com/jaldhara21/employees-Portfolio-of-work-sample/assets/129098874/b8089d5f-662a-4106-8b30-96b65abf2b57)
+
 
 ## Contribution 
 Code refactoring completed by Jaldahara Patel.
