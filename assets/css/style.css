@@ -5,7 +5,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    background-color: var(--background);
+    background-color: var(--background-color);
     box-sizing: border-box;
 }
 body {
@@ -109,7 +109,6 @@ section p {
     background-color: white;
     opacity: 85%;
     width: 45%;
-    position: absolute;
     bottom: 10%;
     left: 0%;
 }
@@ -175,9 +174,9 @@ section p {
     position: relative;
   }
   
-  .movie-detail:hover {
+  /* .movie-detail:hover {
     opacity: 75%;
-  }
+  } */
 /* FOOTER STYLE */
 footer ul {
     list-style: none;
