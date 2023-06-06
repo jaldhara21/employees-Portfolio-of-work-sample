@@ -174,9 +174,9 @@ section p {
     position: relative;
   }
   
-  /* .movie-detail:hover {
+   .movie-detail:hover {
     opacity: 75%;
-  } */
+  } 
 /* FOOTER STYLE */
 footer ul {
     list-style: none;
