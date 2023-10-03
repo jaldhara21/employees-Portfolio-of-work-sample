@@ -200,6 +200,30 @@ section p {
    .student-mark:hover {
     opacity: 75%;
   }
+
+  .FitnessFlavors-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+  }
+  
+  .fitness-flavors {
+    background-image: url(../Images/fitnessapp.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: purple 5px solid;
+    position: relative;
+  }
+  
+   .fitness-flavors:hover {
+    opacity: 75%;
+  }
+
 /* FOOTER STYLE */
 footer ul {
     list-style: none;
